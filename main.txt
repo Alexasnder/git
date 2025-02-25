@@ -6,6 +6,6 @@ int main()
     int y, x;
     printf("Vedite seloe chislo x\n");
     scanf("%d", &x);
-    y = sqrt(pow(x,2)+pow(x,2));
+    y = (sqrt(pow(x,2)+pow(x,2))/2);
     printf("y= %d\n", y);
 }
